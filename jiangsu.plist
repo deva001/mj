@@ -1,32 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-   <key>items</key>
-   <array>
-       <dict>
-           <key>assets</key>
-           <array>
+   <dict>
+      <key>items</key>
+      <array>
+         <dict>
+            <key>assets</key>
+            <array>
                <dict>
-                   <key>kind</key>
-                   <string>software-package</string>
-                   <key>url</key>
-                   <string>http://updateorg.lanzhen28.com/jiangsu.ipa</string>
+                  <key>kind</key>
+                  <string>software-package</string>
+                  <key>url</key>
+                  <string>http://updateorg.lanzhen28.com/jiangsu.ipa</string>
                </dict>
-           </array><key>metadata</key>
-           <dict>
+               <dict>
+                  <key>kind</key>
+                  <string>display-image</string>
+                  <key>url</key>
+                  <string>http://updateorg.lanzhen28.com/jiangsu57.png</string>
+               </dict>
+               <dict>
+                  <key>kind</key>
+                  <string>full-size-image</string>
+                  <key>url</key>
+                  <string>http://updateorg.lanzhen28.com/jiangsu512.png</string>
+               </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
                <key>bundle-identifier</key>
-               <string>com.myapp</string>
+               <string>com.yiqiu.mj.jiangsu</string>
                <key>bundle-version</key>
-               <string>4</string>
+               <string>1.0.1</string>
                <key>kind</key>
                <string>software</string>
-               <key>subtitle</key>
-               <string>我的app</string>
                <key>title</key>
-               <string>我的app<span style="font-family: Arial, Helvetica, sans-serif;"></string></span>
-           </dict>
-       </dict>
-   </array>
-</dict>
+               <string>乐十江苏麻将</string>
+            </dict>
+         </dict>
+      </array>
+   </dict>
 </plist>
-
